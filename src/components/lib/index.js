@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import NextLink from 'next/link';
 
+
 const BASE_URL = 'http://alurakut.vercel.app/';
 const v = '1';
 
@@ -44,7 +45,7 @@ export function AlurakutMenu({ githubUser }) {
         </nav>
 
         <button onClick={() => setMenuState(!isMenuOpen)}>
-          {isMenuOpen && <img src={`${BASE_URL}/icons/menu-open.svg?v=${v}`} />}
+          {isMenuOpen && <img src={`https://github.com/${githubUser}.png`}/>}
           {!isMenuOpen && <img src={`${BASE_URL}/icons/menu-closed.svg?v=${v}`} />}
         </button>
       </div>
@@ -193,6 +194,10 @@ export function AlurakutProfileSidebarMenuDefault() {
   return (
     <AlurakutProfileSidebarMenuDefault.Wrapper>
       <nav>
+     {/*    <a href="/">
+        <img src={`https://github.com/${githubUser}.png`} style={{ borderRadius: '8px' }} />
+        </a>
+ */}
         <a href="/">
           <img src={`${BASE_URL}/icons/user.svg`} />
             Perfil

@@ -36,7 +36,7 @@ background: #FFFFFF;
     border-bottom-color: #ECF2FA;
   }
   input {
-    width: 100%;
+    width: 95%;
     background-color: #F4F4F4;
     color: #333333;
     border: 0;
@@ -45,7 +45,7 @@ background: #FFFFFF;
     border-radius: 10000px;
     ::placeholder {
       color: #333333;
-      opacity: 1;
+      opacity: .5;
     }
   }
   button {

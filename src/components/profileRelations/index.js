@@ -6,6 +6,7 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
     display: grid;
     grid-gap: 8px;
     grid-template-columns: 1fr 1fr 1fr; 
+    padding: 0;
     max-height: 220px;
     list-style: none;
   }
@@ -18,7 +19,7 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
   }
   ul li a {
     display: inline-block;
-    height: 102px;
+     height: 102px;
     position: relative;
     overflow: hidden;
     border-radius: 8px;

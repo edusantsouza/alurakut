@@ -16,7 +16,7 @@ padding: 16px;
   }
 }
 
-@media(min-width: 800px) {
+@media(min-width: 860px) {
   max-width:1110px;
   display: grid;
   grid-template-areas: "profileArea welcomeArea profileRelationsArea";
